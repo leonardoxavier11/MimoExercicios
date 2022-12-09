@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Comparações de Alugel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="itens">
+            <header>
+                <img src="./logo.jfif" alt="logo_compare_cities" class="img-logo">
+            </header>
+            <main>
+                <p class="compare">Paris Rent: <input type="number" id="input1" placeholder="Insira o valor aqui"
+                        class="input-paris"></p>
+                <p class="compare">Barcelona Rent: <input type="number" id="input2" placeholder="Insira o valor aqui">
+                </p>
+                <p class="question">Paris is more expensive than Barcelona? Resposta: <span id="trueOrFalse"></span></p>
+                <P class="awser">Rent difference: <span id="awser"></span></P>
+                <!-- Se for necessário colocar o tipo do botão como: "button", pq como padrão o "form" atualiza a página após o clique -->
+                <form action="">
+                    <button type="button">Clique abri para ver o resultado</button>
+                </form>
+            </main>
+        </div>
+    </div>
+
+    <script src="logica.js"></script>
+</body>
+
+</html>

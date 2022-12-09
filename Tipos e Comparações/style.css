@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+background: url(/141475-download-travel-background-3080x2048-for-iphone-5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container {
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+}
+.img-logo {
+    height: 300px;
+}
+
+main {
+    margin: auto;
+    max-width: 350px;
+    text-align: center;
+}
+
+p, button {
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+.compare {
+    background-color: pink;
+    font-weight: bold;
+}
+.input-paris {
+    margin-left: 33px;
+}
+
+.question {
+    background-color: purple;
+    color: white;
+}
+
+button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.awser {
+    background-color: lightcoral;
+    /* color: white; */
+}
+#awser {
+    font-weight: bold;
+}
